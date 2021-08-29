@@ -111,9 +111,10 @@ let timer = setInterval(function() {
 
   // get today's date
   const today = new Date().getTime();
+    const pause = new Date('August 29, 2021 9:28:00');
 
   // get the difference
-  const diff = today - myDate;
+  const diff = pause - myDate;
 
   // math
   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
